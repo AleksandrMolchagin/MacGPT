@@ -6,12 +6,26 @@
 //
 
 import SwiftUI
+import WebKit
+
 
 @main
 struct MacGPTApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WebView(request: URLRequest(url: URL(string: "https://chat.openai.com/chat")!))
+
         }
+        
+        MenuBarExtra("MacGPT", systemImage: "hammer") {
+            WebView(request: URLRequest(url: URL(string: "https://chat.openai.com/chat")!))
+                
+        }.menuBarExtraStyle(.window)
+        
+        
     }
 }
+
+
+
