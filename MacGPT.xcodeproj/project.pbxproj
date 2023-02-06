@@ -11,7 +11,6 @@
 		8B0687E1298D7C48009F7135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0687E0298D7C48009F7135 /* ContentView.swift */; };
 		8B0687E3298D7C49009F7135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0687E2298D7C49009F7135 /* Assets.xcassets */; };
 		8B0687E6298D7C49009F7135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0687E5298D7C49009F7135 /* Preview Assets.xcassets */; };
-		8BB82B58298D926700E7630A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB82B57298D926700E7630A /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		8B0687E5298D7C49009F7135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B0687E7298D7C49009F7135 /* MacGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacGPT.entitlements; sourceTree = "<group>"; };
 		8BB82B1F298D7CE500E7630A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		8BB82B57298D926700E7630A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				8B0687DE298D7C48009F7135 /* MacGPTApp.swift */,
-				8BB82B57298D926700E7630A /* WebView.swift */,
 				8B0687E0298D7C48009F7135 /* ContentView.swift */,
 				8B0687E2298D7C49009F7135 /* Assets.xcassets */,
 				8B0687E7298D7C49009F7135 /* MacGPT.entitlements */,
@@ -144,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB82B58298D926700E7630A /* WebView.swift in Sources */,
 				8B0687E1298D7C48009F7135 /* ContentView.swift in Sources */,
 				8B0687DF298D7C48009F7135 /* MacGPTApp.swift in Sources */,
 			);
