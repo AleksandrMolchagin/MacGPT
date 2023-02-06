@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B0687DF298D7C48009F7135 /* MacGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0687DE298D7C48009F7135 /* MacGPTApp.swift */; };
-		8B0687E1298D7C48009F7135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0687E0298D7C48009F7135 /* ContentView.swift */; };
-		8B0687E3298D7C49009F7135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0687E2298D7C49009F7135 /* Assets.xcassets */; };
-		8B0687E6298D7C49009F7135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0687E5298D7C49009F7135 /* Preview Assets.xcassets */; };
+		8B5ABA8F29915E230067DFD0 /* MacGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5ABA8E29915E230067DFD0 /* MacGPTApp.swift */; };
+		8B5ABA9129915E230067DFD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5ABA9029915E230067DFD0 /* ContentView.swift */; };
+		8B5ABA9329915E240067DFD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5ABA9229915E240067DFD0 /* Assets.xcassets */; };
+		8B5ABA9629915E240067DFD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5ABA9529915E240067DFD0 /* Preview Assets.xcassets */; };
+		8B5ABA9E29915ED90067DFD0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5ABA9D29915ED90067DFD0 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B0687DB298D7C48009F7135 /* MacGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B0687DE298D7C48009F7135 /* MacGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacGPTApp.swift; sourceTree = "<group>"; };
-		8B0687E0298D7C48009F7135 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8B0687E2298D7C49009F7135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B0687E5298D7C49009F7135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8B0687E7298D7C49009F7135 /* MacGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacGPT.entitlements; sourceTree = "<group>"; };
-		8BB82B1F298D7CE500E7630A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8B5ABA8B29915E230067DFD0 /* MacGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5ABA8E29915E230067DFD0 /* MacGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacGPTApp.swift; sourceTree = "<group>"; };
+		8B5ABA9029915E230067DFD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B5ABA9229915E240067DFD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B5ABA9529915E240067DFD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B5ABA9729915E240067DFD0 /* MacGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacGPT.entitlements; sourceTree = "<group>"; };
+		8B5ABA9D29915ED90067DFD0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B0687D8298D7C48009F7135 /* Frameworks */ = {
+		8B5ABA8829915E230067DFD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,39 +35,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B0687D2298D7C48009F7135 = {
+		8B5ABA8229915E230067DFD0 = {
 			isa = PBXGroup;
 			children = (
-				8BB82B1F298D7CE500E7630A /* .gitignore */,
-				8B0687DD298D7C48009F7135 /* MacGPT */,
-				8B0687DC298D7C48009F7135 /* Products */,
+				8B5ABA8D29915E230067DFD0 /* MacGPT */,
+				8B5ABA8C29915E230067DFD0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8B0687DC298D7C48009F7135 /* Products */ = {
+		8B5ABA8C29915E230067DFD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B0687DB298D7C48009F7135 /* MacGPT.app */,
+				8B5ABA8B29915E230067DFD0 /* MacGPT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B0687DD298D7C48009F7135 /* MacGPT */ = {
+		8B5ABA8D29915E230067DFD0 /* MacGPT */ = {
 			isa = PBXGroup;
 			children = (
-				8B0687DE298D7C48009F7135 /* MacGPTApp.swift */,
-				8B0687E0298D7C48009F7135 /* ContentView.swift */,
-				8B0687E2298D7C49009F7135 /* Assets.xcassets */,
-				8B0687E7298D7C49009F7135 /* MacGPT.entitlements */,
-				8B0687E4298D7C49009F7135 /* Preview Content */,
+				8B5ABA8E29915E230067DFD0 /* MacGPTApp.swift */,
+				8B5ABA9D29915ED90067DFD0 /* WebView.swift */,
+				8B5ABA9029915E230067DFD0 /* ContentView.swift */,
+				8B5ABA9229915E240067DFD0 /* Assets.xcassets */,
+				8B5ABA9729915E240067DFD0 /* MacGPT.entitlements */,
+				8B5ABA9429915E240067DFD0 /* Preview Content */,
 			);
 			path = MacGPT;
 			sourceTree = "<group>";
 		};
-		8B0687E4298D7C49009F7135 /* Preview Content */ = {
+		8B5ABA9429915E240067DFD0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8B0687E5298D7C49009F7135 /* Preview Assets.xcassets */,
+				8B5ABA9529915E240067DFD0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -74,13 +75,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B0687DA298D7C48009F7135 /* MacGPT */ = {
+		8B5ABA8A29915E230067DFD0 /* MacGPT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B0687EA298D7C49009F7135 /* Build configuration list for PBXNativeTarget "MacGPT" */;
+			buildConfigurationList = 8B5ABA9A29915E240067DFD0 /* Build configuration list for PBXNativeTarget "MacGPT" */;
 			buildPhases = (
-				8B0687D7298D7C48009F7135 /* Sources */,
-				8B0687D8298D7C48009F7135 /* Frameworks */,
-				8B0687D9298D7C48009F7135 /* Resources */,
+				8B5ABA8729915E230067DFD0 /* Sources */,
+				8B5ABA8829915E230067DFD0 /* Frameworks */,
+				8B5ABA8929915E230067DFD0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,25 +89,25 @@
 			);
 			name = MacGPT;
 			productName = MacGPT;
-			productReference = 8B0687DB298D7C48009F7135 /* MacGPT.app */;
+			productReference = 8B5ABA8B29915E230067DFD0 /* MacGPT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8B0687D3298D7C48009F7135 /* Project object */ = {
+		8B5ABA8329915E230067DFD0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					8B0687DA298D7C48009F7135 = {
+					8B5ABA8A29915E230067DFD0 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 8B0687D6298D7C48009F7135 /* Build configuration list for PBXProject "MacGPT" */;
+			buildConfigurationList = 8B5ABA8629915E230067DFD0 /* Build configuration list for PBXProject "MacGPT" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,42 +115,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 8B0687D2298D7C48009F7135;
-			productRefGroup = 8B0687DC298D7C48009F7135 /* Products */;
+			mainGroup = 8B5ABA8229915E230067DFD0;
+			productRefGroup = 8B5ABA8C29915E230067DFD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B0687DA298D7C48009F7135 /* MacGPT */,
+				8B5ABA8A29915E230067DFD0 /* MacGPT */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B0687D9298D7C48009F7135 /* Resources */ = {
+		8B5ABA8929915E230067DFD0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0687E6298D7C49009F7135 /* Preview Assets.xcassets in Resources */,
-				8B0687E3298D7C49009F7135 /* Assets.xcassets in Resources */,
+				8B5ABA9629915E240067DFD0 /* Preview Assets.xcassets in Resources */,
+				8B5ABA9329915E240067DFD0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8B0687D7298D7C48009F7135 /* Sources */ = {
+		8B5ABA8729915E230067DFD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0687E1298D7C48009F7135 /* ContentView.swift in Sources */,
-				8B0687DF298D7C48009F7135 /* MacGPTApp.swift in Sources */,
+				8B5ABA9E29915ED90067DFD0 /* WebView.swift in Sources */,
+				8B5ABA9129915E230067DFD0 /* ContentView.swift in Sources */,
+				8B5ABA8F29915E230067DFD0 /* MacGPTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8B0687E8298D7C49009F7135 /* Debug */ = {
+		8B5ABA9829915E240067DFD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		8B0687E9298D7C49009F7135 /* Release */ = {
+		8B5ABA9929915E240067DFD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +264,7 @@
 			};
 			name = Release;
 		};
-		8B0687EB298D7C49009F7135 /* Debug */ = {
+		8B5ABA9B29915E240067DFD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -276,11 +278,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aleksandr.MacGPT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		8B0687EC298D7C49009F7135 /* Release */ = {
+		8B5ABA9C29915E240067DFD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -303,11 +307,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aleksandr.MacGPT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -319,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B0687D6298D7C48009F7135 /* Build configuration list for PBXProject "MacGPT" */ = {
+		8B5ABA8629915E230067DFD0 /* Build configuration list for PBXProject "MacGPT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B0687E8298D7C49009F7135 /* Debug */,
-				8B0687E9298D7C49009F7135 /* Release */,
+				8B5ABA9829915E240067DFD0 /* Debug */,
+				8B5ABA9929915E240067DFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B0687EA298D7C49009F7135 /* Build configuration list for PBXNativeTarget "MacGPT" */ = {
+		8B5ABA9A29915E240067DFD0 /* Build configuration list for PBXNativeTarget "MacGPT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B0687EB298D7C49009F7135 /* Debug */,
-				8B0687EC298D7C49009F7135 /* Release */,
+				8B5ABA9B29915E240067DFD0 /* Debug */,
+				8B5ABA9C29915E240067DFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8B0687D3298D7C48009F7135 /* Project object */;
+	rootObject = 8B5ABA8329915E230067DFD0 /* Project object */;
 }
